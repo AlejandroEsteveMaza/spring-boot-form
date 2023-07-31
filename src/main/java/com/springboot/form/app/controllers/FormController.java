@@ -22,7 +22,6 @@ public class FormController {
 		model.addAttribute("titulo", "Formulario Usuarios");
 		model.addAttribute("usuario", usuario);
 		return "form";
-		
 	}
 
 	@PostMapping("/form")
