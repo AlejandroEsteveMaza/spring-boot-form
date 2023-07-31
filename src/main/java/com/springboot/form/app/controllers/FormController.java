@@ -21,7 +21,9 @@ public class FormController {
 		Usuario usuario = new Usuario();
 		model.addAttribute("titulo", "Formulario Usuarios");
 		model.addAttribute("usuario", usuario);
+		
 		return "form";
+		
 	}
 
 	@PostMapping("/form")
